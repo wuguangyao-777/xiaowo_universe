@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">提交</button>

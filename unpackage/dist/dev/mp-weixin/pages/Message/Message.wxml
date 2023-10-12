@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">点赞</button><button bindtap="{{b}}">评论</button><button bindtap="{{c}}">关注</button><button bindtap="{{d}}">被@</button><button bindtap="{{e}}">被引用</button><button bindtap="{{f}}">系统通知</button><button bindtap="{{g}}">聊天界面</button>

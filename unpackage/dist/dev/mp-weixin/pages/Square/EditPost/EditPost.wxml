@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">完成</button>

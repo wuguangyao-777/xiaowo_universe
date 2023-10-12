@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">可见范围</button><button bindtap="{{b}}">发表范围</button><button bindtap="{{c}}">编辑完成</button>

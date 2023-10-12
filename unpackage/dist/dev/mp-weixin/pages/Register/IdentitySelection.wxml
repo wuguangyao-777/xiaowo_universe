@@ -1,0 +1,1 @@
+<view><test u-s="{{['d']}}" u-i="c609fc14-0" bind:__l="__l">注册个人账号</test><button bindtap="{{a}}">本科+硕士</button><button bindtap="{{b}}">其他个人账号</button><test u-s="{{['d']}}" u-i="c609fc14-1" bind:__l="__l">注册组织账号</test><button bindtap="{{c}}">组织账号</button></view>

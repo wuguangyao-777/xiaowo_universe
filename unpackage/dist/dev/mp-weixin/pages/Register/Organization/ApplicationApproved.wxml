@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">进入小蜗</button>

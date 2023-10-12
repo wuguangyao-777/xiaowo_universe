@@ -1,0 +1,1 @@
+<button bindtap="{{a}}">下一步</button>

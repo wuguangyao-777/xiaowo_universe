@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/Register/Register",
+    "pages/Register/IdentitySelection",
+    "pages/Register/Person/PersonalInformationVerification",
+    "pages/Register/Person/CommunityInformation",
+    "pages/Register/Person/RealNameAuthentication",
+    "pages/Register/Organization/OrganizationalDataFilling",
+    "pages/Register/Organization/CommunityInformation",
+    "pages/Register/Organization/ApplicationSubmitted",
+    "pages/Register/Organization/ApplicationApproved",
+    "pages/Register/Organization/ApplicationNotApproved",
+    "pages/Register/OtherPerson/PersonalInformationVerification",
+    "pages/Register/OtherPerson/CommunityInformation",
+    "pages/Register/OtherPerson/ApplicationSubmitted",
+    "pages/Register/OtherPerson/ApplicationApproved",
+    "pages/Register/OtherPerson/ApplicationNotApproved",
+    "pages/My/My",
+    "pages/My/Edit/Edit",
+    "pages/My/F_A_D/Fans",
+    "pages/My/F_A_D/Attention",
+    "pages/My/ContentCenter/Post",
+    "pages/My/ContentCenter/Collection",
+    "pages/My/ContentCenter/Like",
+    "pages/My/ContentCenter/Hide",
+    "pages/My/ContentCenter/Comment",
+    "pages/My/ContentCenter/Block",
+    "pages/My/MoreServices/Feedback",
+    "pages/My/MoreServices/MessagePush",
+    "pages/My/MoreServices/Coorperation",
+    "pages/My/MoreServices/AboutUs",
+    "pages/Message/Message",
+    "pages/Message/MessageBox/Like",
+    "pages/Message/MessageBox/Comment",
+    "pages/Message/MessageBox/Attention",
+    "pages/Message/MessageBox/ByAt",
+    "pages/Message/MessageBox/Referenced",
+    "pages/Message/MessageBox/SystemNotification",
+    "pages/Message/Chatting/Chatting",
+    "pages/Square/Square",
+    "pages/Square/Topic/Topic",
+    "pages/Square/Topic/Edit/Edit",
+    "pages/Square/Topic/Edit/Vis_Pub/VisibleArea",
+    "pages/Square/Topic/Edit/Vis_Pub/PublishArea",
+    "pages/Square/Post/Post",
+    "pages/Square/EditPost/EditPost"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Square/Square",
+        "text": "广场",
+        "iconPath": "/static/tabBar/tabBar.png",
+        "selectedIconPath": "/static/tabBar/tabBar.png"
+      },
+      {
+        "pagePath": "pages/Message/Message",
+        "text": "消息",
+        "iconPath": "/static/tabBar/tabBar.png",
+        "selectedIconPath": "/static/tabBar/tabBar.png"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "/static/tabBar/tabBar.png",
+        "selectedIconPath": "/static/tabBar/tabBar.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
