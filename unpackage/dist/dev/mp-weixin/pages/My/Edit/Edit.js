@@ -17,5 +17,5 @@ function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
     a: common_vendor.o((...args) => $options.toMy && $options.toMy(...args))
   };
 }
-const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "R:/小蜗宇宙/XiaoWo_Universe/pages/My/Edit/Edit.vue"]]);
+const MiniProgramPage = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["render", _sfc_render], ["__file", "C:/Users/Chinglish/Desktop/xiaowo_universe/pages/My/Edit/Edit.vue"]]);
 wx.createPage(MiniProgramPage);

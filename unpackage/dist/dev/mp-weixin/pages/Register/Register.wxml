@@ -1,1 +1,1 @@
-<button bindtap="{{a}}">立即登录</button><button bindtap="{{b}}">注册</button>
+<u-upload wx:if="{{c}}" bindafterRead="{{a}}" binddelete="{{b}}" u-i="2ff5af9e-0" bind:__l="__l" u-p="{{c}}"></u-upload>
