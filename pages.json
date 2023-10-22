@@ -1,317 +1,312 @@
 {
-	"easycom": 
-	{
-		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
-		"custom": {
-			"^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
-			"^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
-		    "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
-		}
-	},
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		//Register
-		{
-			"path": "pages/Register/Register",
-			"style": {
-				"navigationBarTitleText": "小蜗宇宙"
-			}
-		},
-		{
-			"path": "pages/Register/IdentitySelection",
-			"style": {
-				"navigationBarTitleText": "身份选择"
-			}
-		},
-		//本科+硕士
-		{
-			"path": "pages/Register/Person/PersonalInformationVerification",
-			"style": {
-				"navigationBarTitleText": "个人信息验证"
-			}
-		},
-		{
-			"path": "pages/Register/Person/CommunityInformation",
-			"style": {
-				"navigationBarTitleText":"社区资料"
-			}
-		},
-		{
-			"path": "pages/Register/Person/RealNameAuthentication",
-			"style": {
-				"navigationBarTitleText":"实名认证"
-			}
-		},
-		//组织
-		{
-			"path": "pages/Register/Organization/OrganizationalDataFilling",
-			"style": {
-				"navigationBarTitleText":"组织资料填报"
-			}
-		},
-		{
-			"path": "pages/Register/Organization/CommunityInformation",
-			"style": {
-				"navigationBarTitleText":"社区资料"
-			}
-		},
-		{
-			"path": "pages/Register/Organization/ApplicationSubmitted",
-			"style": {
-				"navigationBarTitleText":"申请已提交"
-			}
-		},
-		{
-			"path": "pages/Register/Organization/ApplicationApproved",
-			"style": {
-				"navigationBarTitleText":"审核通过"
-			}
-		},
-		{
-			"path": "pages/Register/Organization/ApplicationNotApproved",
-			"style": {
-				"navigationBarTitleText":"审核未通过"
-			}
-		},
-		//其他人
-		{
-			"path": "pages/Register/OtherPerson/PersonalInformationVerification",
-			"style": {
-				"navigationBarTitleText":"个人信息验证"
-			}
-		},
-		{
-			"path": "pages/Register/OtherPerson/CommunityInformation",
-			"style": {
-				"navigationBarTitleText":"社区资料"
-			}
-		},
-		{
-			"path": "pages/Register/OtherPerson/ApplicationSubmitted",
-			"style": {
-				"navigationBarTitleText":"申请已提交"
-			}
-		},
-		{
-			"path": "pages/Register/OtherPerson/ApplicationApproved",
-			"style": {
-				"navigationBarTitleText":"审核通过"
-			}
-		},
-		{
-			"path": "pages/Register/OtherPerson/ApplicationNotApproved",
-			"style": {
-				"navigationBarTitleText":"审核未通过"
-			}
-		},
-		{
-			"path": "pages/My/My",
-			"style": {
-				"navigationBarTitleText": "我的",
-				"navigationStyle": "custom" 
-			}
-		},
-		// Edit
-		{
-			"path": "pages/My/Edit/Edit",
-			"style": {
-				"navigationBarTitleText": "编辑"
-			}
-		},
-		// F_A_D
-		{
-			"path": "pages/My/F_A_D/Fans",
-			"style": {
-				"navigationBarTitleText": "粉丝"
-			}
-		},
-		{
-			"path": "pages/My/F_A_D/Attention",
-			"style": {
-				"navigationBarTitleText": "关注"
-			}
-		},
-		// ContentCenter
-		{
-			"path": "pages/My/ContentCenter/Post",
-			"style": {
-				"navigationBarTitleText": "我的帖子"
-			}
-		},
-		{
-			"path": "pages/My/ContentCenter/Collection",
-			"style": {
-				"navigationBarTitleText": "我的收藏"
-			}
-		},
-		{
-			"path": "pages/My/ContentCenter/Like",
-			"style": {
-				"navigationBarTitleText": "我的点赞"
-			}
-		},
-		{
-			"path": "pages/My/ContentCenter/Hide",
-			"style": {
-				"navigationBarTitleText": "被我隐藏"
-			}
-		},
-		{
-			"path": "pages/My/ContentCenter/Comment",
-			"style": {
-				"navigationBarTitleText": "我的评论"
-			}
-		},
-		{
-			"path": "pages/My/ContentCenter/Block",
-			"style": {
-				"navigationBarTitleText": "被我拉黑"
-			}
-		},
-		// MoreServices
-		{
-			"path": "pages/My/MoreServices/Feedback",
-			"style": {
-				"navigationBarTitleText": "意见反馈"
-			}
-		},
-		{
-			"path": "pages/My/MoreServices/MessagePush",
-			"style": {
-				"navigationBarTitleText": "消息推送"
-			}
-		},
-		{
-			"path": "pages/My/MoreServices/Coorperation",
-			"style": {
-				"navigationBarTitleText": "商务合作"
-			}
-		},
-		{
-			"path": "pages/My/MoreServices/AboutUs",
-			"style": {
-				"navigationBarTitleText": "关于我们"
-			}
-		},
-		//Message
-		{
-			"path": "pages/Message/Message",
-			"style": {
-				"navigationBarTitleText": "消息"
-			}
-		},
-		//MessageBox
-		{
-			"path": "pages/Message/MessageBox/Like",
-			"style": {
-				"navigationBarTitleText": "点赞"
-			}
-		},
-		{
-			"path": "pages/Message/MessageBox/Comment",
-			"style": {
-				"navigationBarTitleText": "评论"
-			}
-		},
-		{
-			"path": "pages/Message/MessageBox/Attention",
-			"style": {
-				"navigationBarTitleText": "关注"
-			}
-		},
-		{
-			"path": "pages/Message/MessageBox/ByAt",
-			"style": {
-				"navigationBarTitleText": "被@"
-			}
-		},
-		{
-			"path": "pages/Message/MessageBox/Referenced",
-			"style": {
-				"navigationBarTitleText": "被引用"
-			}
-		},
-		{
-			"path": "pages/Message/MessageBox/SystemNotification",
-			"style": {
-				"navigationBarTitleText": "系统通知"
-			}
-		},
-		{
-			"path": "pages/Message/Chatting/Chatting",
-			"style": {
-				"navigationBarTitleText": "聊天界面"
-			}
-		},
-		//Square
-		{
-			"path": "pages/Square/Square",
-			"style": {
-				"navigationBarTitleText": "广场"
-			}
-		},
-		{
-			"path": "pages/Square/Topic/Topic",
-			"style": {
-				"navigationBarTitleText": "话题矩阵"
-			}
-		},{
-			"path": "pages/Square/Topic/Edit/Edit",
-			"style": {
-				"navigationBarTitleText": "话题编辑"
-			}
-		},{
-			"path": "pages/Square/Topic/Edit/Vis_Pub/VisibleArea",
-			"style": {
-				"navigationBarTitleText": "可见范围"
-			}
-		},
-		{
-			"path": "pages/Square/Topic/Edit/Vis_Pub/PublishArea",
-			"style": {
-				"navigationBarTitleText": "发表范围"
-			}
-		},
-		{
-			"path": "pages/Square/Post/Post",
-			"style": {
-				"navigationBarTitleText": "帖子"
-			}
-		},
-		{
-			"path": "pages/Square/EditPost/EditPost",
-			"style": {
-				"navigationBarTitleText": "编辑帖子"
-			}
-		}
+    "easycom" : {
+        // 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+        "custom" : {
+            "^u--(.*)" : "uview-plus/components/u-$1/u-$1.vue",
+            "^up-(.*)" : "uview-plus/components/u-$1/u-$1.vue",
+            "^u-([^-].*)" : "uview-plus/components/u-$1/u-$1.vue"
+        }
+    },
+    "pages" : [
+        //Register
+        {
+            "path" : "pages/Register/Register",
+            "style" : {
+                "navigationBarTitleText" : "小蜗宇宙"
+            }
+        },
+        {
+            "path" : "pages/Register/IdentitySelection",
+            "style" : {
+                "navigationBarTitleText" : "身份选择"
+            }
+        },
+        //本科+硕士
+        {
+            "path" : "pages/Register/Person/PersonalInformationVerification",
+            "style" : {
+                "navigationBarTitleText" : "个人信息验证"
+            }
+        },
+        {
+            "path" : "pages/Register/Person/CommunityInformation",
+            "style" : {
+                "navigationBarTitleText" : "社区资料"
+            }
+        },
+        {
+            "path" : "pages/Register/Person/RealNameAuthentication",
+            "style" : {
+                "navigationBarTitleText" : "实名认证"
+            }
+        },
+        //组织
+        {
+            "path" : "pages/Register/Organization/OrganizationalDataFilling",
+            "style" : {
+                "navigationBarTitleText" : "组织资料填报"
+            }
+        },
+        {
+            "path" : "pages/Register/Organization/CommunityInformation",
+            "style" : {
+                "navigationBarTitleText" : "社区资料"
+            }
+        },
+        {
+            "path" : "pages/Register/Organization/ApplicationSubmitted",
+            "style" : {
+                "navigationBarTitleText" : "申请已提交"
+            }
+        },
+        {
+            "path" : "pages/Register/Organization/ApplicationApproved",
+            "style" : {
+                "navigationBarTitleText" : "审核通过"
+            }
+        },
+        {
+            "path" : "pages/Register/Organization/ApplicationNotApproved",
+            "style" : {
+                "navigationBarTitleText" : "审核未通过"
+            }
+        },
+        //其他人
+        {
+            "path" : "pages/Register/OtherPerson/PersonalInformationVerification",
+            "style" : {
+                "navigationBarTitleText" : "个人信息验证"
+            }
+        },
+        {
+            "path" : "pages/Register/OtherPerson/CommunityInformation",
+            "style" : {
+                "navigationBarTitleText" : "社区资料"
+            }
+        },
+        {
+            "path" : "pages/Register/OtherPerson/ApplicationSubmitted",
+            "style" : {
+                "navigationBarTitleText" : "申请已提交"
+            }
+        },
+        {
+            "path" : "pages/Register/OtherPerson/ApplicationApproved",
+            "style" : {
+                "navigationBarTitleText" : "审核通过"
+            }
+        },
+        {
+            "path" : "pages/Register/OtherPerson/ApplicationNotApproved",
+            "style" : {
+                "navigationBarTitleText" : "审核未通过"
+            }
+        },
+        {
+            "path" : "pages/My/My",
+            "style" : {
+                "navigationBarTitleText" : "我的",
+                "navigationStyle" : "custom"
+            }
+        },
+        // Edit
+        {
+            "path" : "pages/My/Edit/Edit",
+            "style" : {
+                "navigationBarTitleText" : "编辑"
+            }
+        },
+        // F_A_D
+        {
+            "path" : "pages/My/F_A_D/Fans",
+            "style" : {
+                "navigationBarTitleText" : "粉丝"
+            }
+        },
+        {
+            "path" : "pages/My/F_A_D/Attention",
+            "style" : {
+                "navigationBarTitleText" : "关注"
+            }
+        },
+        // ContentCenter
+        {
+            "path" : "pages/My/ContentCenter/Post",
+            "style" : {
+                "navigationBarTitleText" : "我的帖子"
+            }
+        },
+        {
+            "path" : "pages/My/ContentCenter/Collection",
+            "style" : {
+                "navigationBarTitleText" : "我的收藏"
+            }
+        },
+        {
+            "path" : "pages/My/ContentCenter/Like",
+            "style" : {
+                "navigationBarTitleText" : "我的点赞"
+            }
+        },
+        {
+            "path" : "pages/My/ContentCenter/Hide",
+            "style" : {
+                "navigationBarTitleText" : "被我隐藏"
+            }
+        },
+        {
+            "path" : "pages/My/ContentCenter/Comment",
+            "style" : {
+                "navigationBarTitleText" : "我的评论"
+            }
+        },
+        {
+            "path" : "pages/My/ContentCenter/Block",
+            "style" : {
+                "navigationBarTitleText" : "被我拉黑"
+            }
+        },
+        // MoreServices
+        {
+            "path" : "pages/My/MoreServices/Feedback",
+            "style" : {
+                "navigationBarTitleText" : "意见反馈"
+            }
+        },
+        {
+            "path" : "pages/My/MoreServices/MessagePush",
+            "style" : {
+                "navigationBarTitleText" : "消息推送"
+            }
+        },
+        {
+            "path" : "pages/My/MoreServices/Coorperation",
+            "style" : {
+                "navigationBarTitleText" : "商务合作"
+            }
+        },
+        {
+            "path" : "pages/My/MoreServices/AboutUs",
+            "style" : {
+                "navigationBarTitleText" : "关于我们"
+            }
+        },
+        //Message
+        {
+            "path" : "pages/Message/Message",
+            "style" : {
+                "navigationBarTitleText" : "消息"
+            }
+        },
+        //MessageBox
+        {
+            "path" : "pages/Message/MessageBox/Like",
+            "style" : {
+                "navigationBarTitleText" : "点赞"
+            }
+        },
+        {
+            "path" : "pages/Message/MessageBox/Comment",
+            "style" : {
+                "navigationBarTitleText" : "评论"
+            }
+        },
+        {
+            "path" : "pages/Message/MessageBox/Attention",
+            "style" : {
+                "navigationBarTitleText" : "关注"
+            }
+        },
+        {
+            "path" : "pages/Message/MessageBox/ByAt",
+            "style" : {
+                "navigationBarTitleText" : "被@"
+            }
+        },
+        {
+            "path" : "pages/Message/MessageBox/Referenced",
+            "style" : {
+                "navigationBarTitleText" : "被引用"
+            }
+        },
+        {
+            "path" : "pages/Message/MessageBox/SystemNotification",
+            "style" : {
+                "navigationBarTitleText" : "系统通知"
+            }
+        },
+        {
+            "path" : "pages/Message/Chatting/Chatting",
+            "style" : {
+                "navigationBarTitleText" : "聊天界面"
+            }
+        },
+        //Square
+        {
+            "path" : "pages/Square/Square",
+            "style" : {
+                "navigationBarTitleText" : "广场"
+            }
+        },
+        {
+            "path" : "pages/Square/Topic/Topic",
+            "style" : {
+                "navigationBarTitleText" : "话题矩阵"
+            }
+        },
+        {
+            "path" : "pages/Square/Topic/Edit/Edit",
+            "style" : {
+                "navigationBarTitleText" : "话题编辑"
+            }
+        },
+        {
+            "path" : "pages/Square/Topic/Edit/Vis_Pub/VisibleArea",
+            "style" : {
+                "navigationBarTitleText" : "可见范围"
+            }
+        },
+        {
+            "path" : "pages/Square/Topic/Edit/Vis_Pub/PublishArea",
+            "style" : {
+                "navigationBarTitleText" : "发表范围"
+            }
+        },
+        {
+            "path" : "pages/Square/Post/Post",
+            "style" : {
+                "navigationBarTitleText" : "帖子"
+            }
+        },
+        {
+            "path" : "pages/Square/EditPost/EditPost",
+            "style" : {
+                "navigationBarTitleText" : "编辑帖子"
+            }
+        }
     ],
-	"tabBar": {
-		 "list": [
-		      {
-		        "pagePath": "pages/Square/Square",
-		        "text": "广场",
-		        "iconPath": "/static/tabBar/tabBar.png",
-		        "selectedIconPath": "/static/tabBar/tabBar.png"
-		      },
-		      {
-		        "pagePath": "pages/Message/Message",
-		        "text": "消息",
-		        "iconPath": "/static/tabBar/tabBar.png",
-		        "selectedIconPath": "/static/tabBar/tabBar.png"
-		      },
-		      {
-		        "pagePath": "pages/My/My",
-		        "text": "我的",
-		        "iconPath": "/static/tabBar/tabBar.png",
-		        "selectedIconPath": "/static/tabBar/tabBar.png"
-		      }
-		    ]
-	},
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"uniIdRouter": {}
+    "tabBar" : {
+        "custom" : true,
+        "list" : [
+            {
+                "pagePath" : "pages/Square/Square",
+                "text" : "广场"
+            },
+            {
+                "pagePath" : "pages/Message/Message",
+                "text" : "消息"
+            },
+            {
+                "pagePath" : "pages/My/My",
+                "text" : "我的"
+            }
+        ]
+    },
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "uniIdRouter" : {}
 }
-,

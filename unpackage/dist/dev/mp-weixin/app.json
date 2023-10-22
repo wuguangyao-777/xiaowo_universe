@@ -52,24 +52,19 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
+    "custom": true,
     "list": [
       {
         "pagePath": "pages/Square/Square",
-        "text": "广场",
-        "iconPath": "/static/tabBar/tabBar.png",
-        "selectedIconPath": "/static/tabBar/tabBar.png"
+        "text": "广场"
       },
       {
         "pagePath": "pages/Message/Message",
-        "text": "消息",
-        "iconPath": "/static/tabBar/tabBar.png",
-        "selectedIconPath": "/static/tabBar/tabBar.png"
+        "text": "消息"
       },
       {
         "pagePath": "pages/My/My",
-        "text": "我的",
-        "iconPath": "/static/tabBar/tabBar.png",
-        "selectedIconPath": "/static/tabBar/tabBar.png"
+        "text": "我的"
       }
     ]
   },
