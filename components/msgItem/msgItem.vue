@@ -6,10 +6,13 @@
         <p class="name">{{$props.name}}</p>
         <p class="time">{{$props.time}}</p>
       </div>
-      <p class="info">{{$props.info}}</p>
+      <p class="info">{{infos[$props.info_idx]}}</p>
     </div>
+    
+    <!-- 右侧帖子预览，优先展示图片(post_img参数) -->
     <u-image v-if="$props.post_img" class="post" :src="$props.post_img" :width="44" :height="44"></u-image>
     <p v-else class="post">{{$props.post_text}}</p>
+    
     <p v-if="$props.msg" class="message">{{$props.msg}}</p>
   </div>
 </template>
@@ -19,10 +22,16 @@
     name: 'msgItem',
     data() {
       return {
-
+        infos: [
+          '引用了你的帖子',
+          '点赞了你的帖子',
+          '@了你',
+          '回复了你',
+          '评论了你'
+        ]
       }
     },
-    props: ['avatar', 'name', 'time', 'info', 'post_text', 'post_img', 'msg']
+    props: ['avatar', 'name', 'time', 'info_idx', 'post_text', 'post_img', 'msg']
   }
 </script>
 
@@ -95,7 +104,8 @@
     text-align: start;
     overflow: hidden;
     overflow-wrap: break-word;
-    font-size: 8px;
+    /* 字体要求太小了，不生效 */
+    font-size: 8px; 
     text-overflow: ellipsis;
   }
   
